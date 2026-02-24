@@ -40,6 +40,7 @@ jobs:
           username: ${{ secrets.VM_USERNAME }}
           key: ${{ secrets.VM_SSH_KEY }}
           script: |
-            cd /path/to/your/project
+            cd /home/${{ secrets.VM_USERNAME }}/mean-for-discoverdollar
+            git pull
             sudo docker-compose pull
             sudo docker-compose up -d
