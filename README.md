@@ -31,11 +31,10 @@ This application leverages a containerized microservices architecture to ensure 
 
 <img width="1468" height="749" alt="image" src="https://github.com/user-attachments/assets/8384b565-062e-4407-a56b-5e5d3e800437" />
 <br>
-#### 🐳 2. Docker Image Build & Push
+
+🐳 2. Docker Image Build & Push
 
 <img width="1745" height="500" alt="Screenshot 2026-02-24 031951" src="https://github.com/user-attachments/assets/83962c57-4f37-48ac-80ea-b0fdce0316c6" /><br>
-
-<img width="1278" height="513" alt="image" src="https://github.com/user-attachments/assets/8f702718-ac13-45b1-9971-f7a3a30ea75f" /><br>
 
 <img width="1278" height="513" alt="image" src="https://github.com/user-attachments/assets/2614c363-fb3d-4766-80f3-03fa3f465fd7" /><br>
 
