@@ -7,7 +7,7 @@ services:
       - db-data:/data/db
 
   backend:
-    build: ./backend
+    image: amruthkumartj/dd-mean-backend:latest
     container_name: dd-backend
     restart: always
     network_mode: "service:mongodb"
@@ -15,7 +15,7 @@ services:
       - NODE_OPTIONS=--dns-result-order=ipv4first
 
   frontend:
-    build: ./frontend
+    image: amruthkumartj/dd-mean-frontend:latest
     container_name: dd-frontend
     restart: always
     command: npx ng serve --host 0.0.0.0 --port 4200 --disable-host-check
