@@ -41,7 +41,8 @@ jobs:
           key: ${{ secrets.VM_SSH_KEY }}
           script: |
             cd /home/${{ secrets.VM_USERNAME }}/mean-for-discoverdollar
-            git pull
+            git reset --hard HEAD
+            git pull origin master
             sudo docker compose pull
             sudo docker compose up -d
             sudo docker system prune -af
