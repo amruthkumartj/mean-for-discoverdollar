@@ -5,7 +5,7 @@ A robust, full-stack MEAN (MongoDB, Express, Angular, Node.js) application deplo
 
 ---
 
-### 🏗️ Technical Architecture
+###  Technical Architecture
 
 This application leverages a containerized microservices architecture to ensure scalability and ease of maintenance:
 
@@ -16,7 +16,7 @@ This application leverages a containerized microservices architecture to ensure 
 
 ---
 
-### ✨ Key Features
+###  Key Features
 
 * **Automated CI/CD:** Every push to the master branch triggers a GitHub Action that builds, pushes, and deploys the new code.
 * **Reverse Proxy Integration:** Nginx handles all incoming Port 80 traffic, routing requests between the static frontend and the API.
@@ -25,9 +25,9 @@ This application leverages a containerized microservices architecture to ensure 
 
 ---
 
-### 📸 Deployment Showcases
+###  Deployment Showcases
 
-#### 🚀 1. CI/CD Execution & Deployment
+####  1. CI/CD Execution & Deployment
 
 <img width="1468" height="749" alt="image" src="https://github.com/user-attachments/assets/8384b565-062e-4407-a56b-5e5d3e800437" />
 <br>
@@ -38,13 +38,13 @@ This application leverages a containerized microservices architecture to ensure 
 
 <img width="1278" height="513" alt="image" src="https://github.com/user-attachments/assets/2614c363-fb3d-4766-80f3-03fa3f465fd7" /><br>
 
-#### 🛡️ 3. Infrastructure (GCP)
+####  3. Infrastructure (GCP)
 
 <img width="1229" height="355" alt="image" src="https://github.com/user-attachments/assets/363f75dc-fe28-4f56-8c62-1aad50e5483e" /><br>
 
 <img width="1172" height="721" alt="image" src="https://github.com/user-attachments/assets/36f68e29-b77c-403a-ad79-d23602b61217" /><br>
 
-#### 🌐 4. Working Application UI
+####  4. Working Application UI
 
 <img width="1264" height="619" alt="Screenshot 2026-02-24 183734" src="https://github.com/user-attachments/assets/af25469e-f5cf-434e-bd3f-a1dd0a6fd166" /><br>
 
@@ -65,7 +65,7 @@ During the development and deployment of this stack, the following technical cha
 
 ---
 
-### 🚀 Setup & Installation
+### Setup & Installation
 
 #### Prerequisites
 
